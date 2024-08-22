@@ -1,11 +1,11 @@
-package assistant
+package packages
 
-import(
+import (
 	"fmt"
 )
 
 // towrite registra uma mensagem na tela
-func towrite(){
+func towrite() {
 	fmt.Println("Escrevendo pela função escrevendo 2!")
 }
 
