@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"module/structs"
+	"module/heranca"
 )
 
 func main() {
-	fmt.Println("Arquivo structs")
-	structs.Struct()
+	fmt.Println("Não é Herança")
+	heranca.NotHeritage()
 }
