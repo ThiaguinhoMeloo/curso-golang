@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Não é Herança")
+	fmt.Println("Arquivo structs")
 	heranca.NotHeritage()
 }
