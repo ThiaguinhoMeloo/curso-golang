@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"module/heranca"
+	"module/pointers"
 )
 
 func main() {
-	fmt.Println("Arquivo structs")
-	heranca.NotHeritage()
+	pointers.Pointer()
 }

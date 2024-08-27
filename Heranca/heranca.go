@@ -34,3 +34,13 @@ func NotHeritage() {
 	}
 	fmt.Println(s1)
 }
+
+// import (
+// 	"fmt"
+// 	"module/heranca"
+// )
+
+// func main() {
+// 	fmt.Println("Arquivo structs")
+// 	heranca.NotHeritage()
+// }
