@@ -1,9 +1,9 @@
 package main
 
 import (
-	"module/pointers"
+	"module/arrayslice"
 )
 
 func main() {
-	pointers.Pointer()
+	arrayslice.ArraySlice()
 }
