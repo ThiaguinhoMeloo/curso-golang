@@ -1,9 +1,9 @@
 package main
 
 import (
-	"module/arrayslice"
+	"module/maps"
 )
 
 func main() {
-	arrayslice.ArraySlice()
+	maps.Map()
 }
