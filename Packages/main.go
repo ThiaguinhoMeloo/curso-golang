@@ -1,9 +1,9 @@
 package main
 
 import (
-	"module/maps"
+	"module/controlstructures"
 )
 
 func main() {
-	maps.Map()
+	controlstructures.ControlStructures()
 }
