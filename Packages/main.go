@@ -1,9 +1,16 @@
 package main
 
 import (
-	"module/controlstructures"
+	"fmt"
+	"module/switchs"
 )
 
 func main() {
-	controlstructures.ControlStructures()
+	day := switchs.DayOfTheWeek(200)
+	fmt.Println(day)
+
+	fmt.Println("-----------------------------------")
+
+	day2 := switchs.DayOfTheWeek2(7)
+	fmt.Println(day2)
 }
