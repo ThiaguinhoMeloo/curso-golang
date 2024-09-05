@@ -1,16 +1,26 @@
 package main
 
 import (
-	"fmt"
-	"module/switchs"
+	"module/loops"
 )
 
 func main() {
-	day := switchs.DayOfTheWeek(200)
-	fmt.Println(day)
-
-	fmt.Println("-----------------------------------")
-
-	day2 := switchs.DayOfTheWeek2(7)
-	fmt.Println(day2)
+	loops.Loops()
 }
+
+// package main
+
+// import (
+// 	"fmt"
+// 	"module/switchs"
+// )
+
+// func main() {
+// 	day := switchs.DayOfTheWeek(200)
+// 	fmt.Println(day)
+
+// 	fmt.Println("-----------------------------------")
+
+// 	day2 := switchs.DayOfTheWeek2(7)
+// 	fmt.Println(day2)
+// }
