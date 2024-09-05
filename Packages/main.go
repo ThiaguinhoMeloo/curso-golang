@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
-	"module/advancedfunctions/namedreturn"
+	"module/advancedfunctions/recursive"
 )
 
 func main() {
-	soma, subtracao := namedreturn.NamedReturn(10, 20)
-	fmt.Println(soma, subtracao)
+	position := uint(12)
+	for i := uint(0); i <= position; i++ {
+		fmt.Println(recursive.Fibonacci(position))
+	}
 }
