@@ -1,26 +1,11 @@
 package main
 
 import (
-	"module/loops"
+	"fmt"
+	"module/advancedfunctions/namedreturn"
 )
 
 func main() {
-	loops.Loops()
+	soma, subtracao := namedreturn.NamedReturn(10, 20)
+	fmt.Println(soma, subtracao)
 }
-
-// package main
-
-// import (
-// 	"fmt"
-// 	"module/switchs"
-// )
-
-// func main() {
-// 	day := switchs.DayOfTheWeek(200)
-// 	fmt.Println(day)
-
-// 	fmt.Println("-----------------------------------")
-
-// 	day2 := switchs.DayOfTheWeek2(7)
-// 	fmt.Println(day2)
-// }
